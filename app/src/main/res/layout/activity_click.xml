@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText"
+    tools:context=".ClickActivity">
+
+    <TextView
+        android:id="@+id/tv_index"
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:textSize="24sp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_un_check_click"
+        android:layout_width="wrap_content"
+        android:text="setOnClickListener 匿名内部类\n 不防抖"
+        android:layout_height="wrap_content"
+       />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_click"
+        android:text="setOnClickListener \n 匿名内部类"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_lambda"
+        android:text="setOnClickListener \n lambda"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

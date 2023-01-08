@@ -1,0 +1,21 @@
+//引用groovy插件，编译插件工程中的代码
+apply plugin: 'groovy'
+
+//声明仓库地址
+repositories {
+    google()
+    mavenCentral()
+
+}
+
+
+//声明依赖的包
+dependencies {
+    implementation gradleApi()
+    implementation localGroovy()
+    //使用Transform需要
+    implementation 'com.android.tools.build:gradle:4.1.3'
+    //ASM
+    implementation 'org.ow2.asm:asm:9.3'
+    implementation 'org.ow2.asm:asm-commons:9.3'
+}
